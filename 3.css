@@ -1,14 +1,14 @@
 .top {
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/QQ图片20230106184520.png);
+    background-image: url(./QQ图片20230106184520.png);
     background-size: cover;
 }
 
 .bottom {
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/yslei2.jpg);
+    background-image: url(./yslei2.jpg);
     background-size: cover;
     text-align: center;
     color: gray;
