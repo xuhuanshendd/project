@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+body{
+    font-size: 14px;
+    color: #000;
+    background: rgb(240, 241, 245);
+}
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 90px;
+}
+
+.main .main-layout {
+    width: 100%;
+}
+
+.main .main-layout .main-inner {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.main .main-layout .main-inner .main-left {
+    width: 65%;
+    background: #fff;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.main .main-layout .main-inner .main-left>h1 {
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main .main-layout .main-inner .main-left .main-box {
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.main .main-layout .main-inner .main-left .main-box>table {
+    width: 100%;
+}
+.main .main-layout .main-inner .main-left .main-box>table>tbody>tr>td {
+    width: 25%;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 18px;
+    text-align: center;
+    user-select: none;
+}
+
+.main .main-layout .main-inner .main-pic {
+    width: 35%;
+    background-image: url(./images/雷电将军5.webp);
+    background-size: 500px;
+}
+
+.main .main-layout .htstory {
+    width: 100%;
+    max-width: 1200px;
+    background: #fff;
+}
+
+.main .main-layout .htstory>li {
+    width: 100%;
+    position: relative;
+}
+
+.main .main-layout .htstory>li>p {
+    line-height: 50px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    font-weight: 900;
+}
+
+.main .main-layout .htstory>li .text-inner {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    overflow: hidden;
+}
+
+.main .main-layout .htstory>li .text-inner>p {
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.main .main-layout .htstory>li .story-inner {
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 0;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+    display: none;
+}
+
+.main .main-layout .htstory>li .story-inner>p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    text-align: left;
+}
